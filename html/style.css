@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+head{
+    text-align: center;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: beige
+}
+
+
+.menu{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px 80px;
+}
+
+.menu__list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu__item--active{
+    font-weight: bold;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
